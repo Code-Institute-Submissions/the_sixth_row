@@ -272,9 +272,14 @@ footer .cv-pdf i:hover {
 
 /*------------------------------------Music*/
 
+.music-icon {
+    margin-top: 15px;
+    font-size: 26px;
+    color: #A7C184;
+}
 
 .music-heading {
-    color: #8A1E25;
+    color: #A7C184;
     margin-top: 15px;
     margin-bottom: 15px;
 }
