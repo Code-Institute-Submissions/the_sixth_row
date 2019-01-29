@@ -19,6 +19,8 @@
 
 .bg-color-music {
     background-color: #525252;
+    background-image: url("/assets/images/super_phase.jpg");
+    background-repeat: no-repeat;
 }
 
 .bg-color-skills {
@@ -267,16 +269,21 @@ footer .cv-pdf i:hover {
     margin-bottom: 15px;
 }
 
-/*------------------------------------Personal Info*/
+/*------------------------------------Music*/
+
+
+.music-heading {
+    color: #8A1E25;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .music-item {
-    
     margin-bottom: 20px;
     display: block;
     clear: both;
+  
 }
-
-
  
 /*------------------------------------Skills*/
 
