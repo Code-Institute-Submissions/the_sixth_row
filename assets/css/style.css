@@ -12,17 +12,18 @@
     background-color: #8A1E25;
 }
 
-.bg-color-three-reasons {
+.bg-color-video {
     background-color: #525252;
+    background-position: 100%;
 }
 
 
 .bg-color-music {
-    background-color: #525252;
+    background-color: #A7C184;
     background-image: url("/assets/images/super_phase.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+    background-size: 100% 100%; 
+} 
 
 .bg-color-skills {
     background-color: #ffffff;
@@ -37,7 +38,7 @@
 }
 
 .ul-menu-color-home {
-    background-color: #525252;
+    background-color: #A7C184;
 }
 
 .ul-menu-color-about {
@@ -45,11 +46,11 @@
 }
 
 .ul-menu-color-the-band {
-    background-color: #525252;
+    background-color: #7E9991;
 }
 
 .ul-menu-color-events {
-    background-color: #A7C184;
+    background-color: #6E181E;
 }
 
 /*------------------------------------Special Paddings/Margins/Text*/
@@ -79,7 +80,7 @@ h4 {
     padding: 0 30px 30px;
     float: none;
     display: table-cell;
-}*/     
+} */        
 
 .row-table {
     display: table;
@@ -178,16 +179,6 @@ h4 {
     height: 75px;
 }
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 75px;
-}
-
-.hvr-sweep-to-top:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 75px;
-}
-
 /*------------------------------------Footer*/
 
 footer {
@@ -254,34 +245,39 @@ footer .cv-pdf i:hover {
     margin-bottom: 15px;
     margin-top: 15px;
     color: #A7C184;
+    font-weight: bolder;
 }
 
 /*------------------------------------Three Reasons*/
 
-.three-reasons-icon {
+.video-icon {
     margin-top: 15px;
     font-size: 26px;
     color: #A7C184;
 }
 
-.three-reasons-heading {
+.video-heading {
     color: #A7C184;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-weight: bolder;
 }
 
 /*------------------------------------Music*/
 
 .music-icon {
     margin-top: 15px;
-    font-size: 26px;
-    color: #A7C184;
+    font-size: 50px;
+    color: #8A1E25;
 }
 
 .music-heading {
-    color: #A7C184;
+    color:#A7C184;
+    background-color: #525252;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 61px;
 }
 
 .music-item {
