@@ -9,17 +9,17 @@
 }
 
 .bg-color-audio-smackdown {
-    background-color: #525252;
+    background-color: #010101;
 }
 
 .bg-color-video {
-    background-color: #525252;
+    background-color: #2B2B2B;
 }
 
 
 .bg-color-music {
     background-color: #A7C184;
-    background-image: url("/assets/images/super_phase.jpg");
+    background-image: url("/assets/images/super_phase1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
 } 
@@ -37,19 +37,19 @@
 }
 
 .ul-menu-color-home {
-    background-color: #A7C184;
+    background-color: #010101; 
 }
 
 .ul-menu-color-about {
-    background-color: #8A1E25;
+    background-color: #6E181E; 
 }
 
 .ul-menu-color-the-band {
-    background-color: #7E9991;
+    background-color: #2B2B2B;
 }
 
-.ul-menu-color-events {
-    background-color: #6E181E;
+.ul-menu-color-contact {
+    background-color: #8A1E25;
 }
 
 /*------------------------------------Special Paddings/Margins/Text*/
@@ -194,8 +194,8 @@ background: url("../images/T6R_Image.JPG");
     margin-top: 15px;
     margin-left: 15px;
     font-size: 50px;
-    color: #A7C184;
-    text-shadow: 2px 2px #8A1E25;
+    color: #5DA95F;
+    text-shadow: 2px 4px #8A1E25;
 }
 
 .audio-smackdown-heading {
@@ -211,7 +211,7 @@ background: url("../images/T6R_Image.JPG");
 .video-icon {
     margin-top: 15px;
     font-size: 50px;
-    color: #A7C184;
+    color: #5DA95F;
     text-shadow: 2px 2px #8A1E25;
 }
 
@@ -228,7 +228,7 @@ background: url("../images/T6R_Image.JPG");
 .music-icon {
     margin-top: 15px;
     font-size: 50px;
-    color: #A7C184;
+    color: #5DA95F;
     text-shadow: 3px 3px #8A1E25;
 }
 
