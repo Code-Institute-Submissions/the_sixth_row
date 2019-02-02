@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+    <header class="header-container-fluid">
         <a href="index.html">
             <div class="col-md-4 logo"></div>
         </a>
@@ -37,7 +37,7 @@
             </div>
         </div>
     </header>
-    <section class="container-fluid" style="margin-left: 15px">
+    <section class="container-fluid">
         <div class="row row-table">
             <div class="row-xs-10 row-xs-offset-1 row-sm-offset-0 row-sm-4 row-md-6">
                 <div class="row bg-color-audio-smackdown">
@@ -46,7 +46,7 @@
                     </div>
                     <div class="col-xs-10 col-sm-10">
                         <h4 class="audio-smackdown-heading uppercase">Audio Smackdown</h4>
-                        <p style="color:#ffffff;font-size:17px; text-shadow: 1px 1px #8A1E25;">
+                        <p class="audio-smackdown-text">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
                             ea commodo consequat. Duis autem vel eum iriure dolor Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
                             quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
@@ -61,24 +61,24 @@
                     </div>
                     <div class="col-xs-10 col-sm-10">
                         <h4 class="music-heading uppercase">Music</h4>
-                        <p style="color:#8A1E25;font-size:30px;font-weight:bolder; text-shadow: 3px 3px #A7C184">
+                        <p class="with-bells-on">
                             With Bells On
                         </p>
-                        <audio controls style="border: 5px solid #8A1E25; border-radius: 25px;">
+                        <audio controls class="audio-player">
                             <source src="/assets/music/With Bells on.mp3 " type="audio/mpeg ">
                             Your browser does not support the audio element.
                             </audio>
-                        <p style="color:#8A1E25;font-size:30px;font-weight:bolder; text-shadow: 3px 3px #A7C184">
+                        <p class="leave">
                             Leave
                         </p>
-                        <audio controls style="border: 5px solid #8A1E25; border-radius: 25px;">
+                        <audio controls class="audio-player">
                           <source src="/assets/music/Leave.mp3 " type="audio/mpeg ">
                             Your browser does not support the audio element.
                             </audio>
-                        <p style="color:#8A1E25;font-size:30px; font-weight:bolder;text-shadow: 3px 3px #A7C184;">
+                        <p class="for-incineration">
                             For Incineration
                         </p>
-                        <audio controls style="border: 5px solid #8A1E25; border-radius: 25px;">
+                        <audio controls class="audio-player">
                           <source src="/assets/music/For Incineration.mp3 " type="audio/mpeg ">
                             Your browser does not support the audio element.
                             </audio>
@@ -92,43 +92,43 @@
                     </div>
                     <div class="col-xs-10 col-sm-10">
                         <h4 class="video-heading uppercase">Found Away Video</h4>
-                        <p style="color:#ffffff;font-size:17px; text-shadow: 1px 1px #8A1E25;">
+                        <p class="video-text">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
                         </p>
-                        <video width="75%" height="50%" position="center" controls>
+                        <video class="video" controls>
                             <source src="/assets/music/found_away_video.mp4" type="video/mp4">
                             Your browser does not support the video tag.
-                            </video>                    </div>
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="container-fluid ">
-        <div id="footer-details " class="row ">
-             
+    <footer class="footer-container-fluid">
+        <div id="footer-details" class="row">
+
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub ">T6R Social</h5>
                 <ul class="list-inline social-links ">
                     <li><a target="_blank " href="# "><i class="fa fa-facebook "></i></a></li>
                     <li><a target="_blank " href="# "><i class="fa fa-twitter "></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-linkedin "></i></a></li>
                     <li><a target="_blank " href="# "><i class="fa fa-pinterest "></i></a></li>
                     <li><a target="_blank " href="# "><i class="fa fa-instagram "></i></a></li>
                     <li><a target="_blank " href="# "><i class="fa fa-youtube "></i></a></li>
                 </ul>
             </div>
             <div class="col-sm-4 ">
-                <h5 class="uppercase general-sub ">Contact T6R</h5>
+                <h5 class="uppercase general-sub">Get in touch with us!!</h5>
+                <a href="contact.html" class='btn btn-danger'>Contact</a>
                 <p class="inline-block ">
-                    For Gigs, Parties, Weddings etc (Contact email Form link) 
-                    <a href="assets/cv/Robert Simons Curriculum Vitae.pdf " target="_blank " class="cv-pdf "><i class="fa fa-download " aria-hidden="true "></i></a>
+                    Available for Gigs, Parties, Weddings, Summer Balls, Corporate Events etc...
                 </p>
-                <a href="/login" class='btn btn-default navbar-btn'>Contact</a>
+                <p class="copyright">The Sixth Row 2019 | All Rights Reserved</p>
             </div>
             <a href="index.html">
-            <div class="col-sm-4 footer-image"></div>
+                <div class="col-sm-4 footer-image"></div>
             </a>
-         </div>   
+        </div>
     </footer>
 </body>
 

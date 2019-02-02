@@ -130,7 +130,7 @@ h4 {
 }
 
 .footer-image {
-background: url("../images/T6R_Image.JPG");
+    background: url("../images/T6R_Image.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -181,18 +181,30 @@ background: url("../images/T6R_Image.JPG");
     letter-spacing: 2px;
 }
 
-/*------------------------------------Hover.css*/
+/*------------------------------------Containers*/
 
-.hvr-pulse:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 75px;
+.header-container-fluid {
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer-container-fluid {
+    padding-left: 0px; 
+    padding-right: 0px; 
+    margin: 0px;
+    
 }
 
 /*------------------------------------Audio Smackdown*/
 
 .audio-smackdown-icon {
     margin-top: 15px;
-    margin-left: 15px;
+    padding-left: 30px;
     font-size: 50px;
     color: #5DA95F;
     text-shadow: 2px 4px #8A1E25;
@@ -206,10 +218,18 @@ background: url("../images/T6R_Image.JPG");
     text-shadow: 2px 2px #8A1E25;
 }
 
-/*------------------------------------Three Reasons*/
+.audio-smackdown-text {
+    color:#ffffff;
+    font-size:17px; 
+    text-shadow: 1px 1px #8A1E25;  
+    padding-right:15px;
+}
+
+/*------------------------------------Video*/
 
 .video-icon {
     margin-top: 15px;
+    margin-left:15px;
     font-size: 50px;
     color: #5DA95F;
     text-shadow: 2px 2px #8A1E25;
@@ -223,10 +243,49 @@ background: url("../images/T6R_Image.JPG");
     text-shadow: 2px 2px #8A1E25;
 }
 
+.video-text {
+    color:#ffffff;
+    font-size:17px; 
+    text-shadow: 1px 1px #8A1E25;
+}
+
+.video {
+    width:75%;
+    height:50%; 
+    position:center;
+}
+
 /*------------------------------------Music*/
+
+.with-bells-on {
+  color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184;  
+}
+
+.leave {
+    color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184;
+}
+
+.for-incineration {
+    color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184;
+} 
+
+.audio-player {
+    border: 5px solid #8A1E25;
+    border-radius: 25px;
+}
 
 .music-icon {
     margin-top: 15px;
+    margin-left:15px;
     font-size: 50px;
     color: #5DA95F;
     text-shadow: 3px 3px #8A1E25;
@@ -278,15 +337,16 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    text-shadow: 2px 2px #8A1E25;
+    width: 50px;
+    height: 50px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 26px;
+    line-height: 25px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #5DA95F;
+    background: #2b2b2b; 
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -294,12 +354,29 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover{
-    background: #e84610;
+    background: #8A1E25;
     
 }
 
 #footer-details {
-    margin: 20px;
+    margin: 0px;
+}
+
+.btn {
+    background-color: #5DA95F;
+    margin-right: 10px;
+}   
+
+.btn btn btn-danger:hover{
+    background: #5DA95F;
+    
+}
+
+.copyright{
+    color: #8A1E25;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 3px;
 }
  
 /*------------------------------------Skills*/
