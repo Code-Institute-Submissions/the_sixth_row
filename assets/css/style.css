@@ -22,6 +22,7 @@
     background-image: url("/assets/images/super_phase1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
+    padding-bottom: 20px;
 } 
 
 .bg-color-skills {
@@ -40,7 +41,7 @@
     background-color: #010101; 
 }
 
-.ul-menu-color-about {
+.ul-menu-color-shows {
     background-color: #6E181E; 
 }
 
@@ -51,6 +52,8 @@
 .ul-menu-color-contact {
     background-color: #8A1E25;
 }
+
+
 
 /*------------------------------------Special Paddings/Margins/Text*/
 
@@ -83,6 +86,11 @@ h4 {
 
 .row-table {
     display: table;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
 }
 
 .history-heading,
@@ -107,7 +115,6 @@ h4 {
 }
 
 .heading {
-    
     background: url("../images/T6R.jpg"); 
     background-position: bottom;
     background-repeat: no-repeat;
@@ -186,18 +193,19 @@ h4 {
 .header-container-fluid {
     padding-left: 0px; 
     padding-right: 0px;
+    margin: 0px;
 }
 
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
+    margin: 0px;
 }
 
 .footer-container-fluid {
     padding-left: 0px; 
     padding-right: 0px; 
     margin: 0px;
-    
 }
 
 /*------------------------------------Audio Smackdown*/
@@ -225,11 +233,68 @@ h4 {
     padding-right:15px;
 }
 
+/*------------------------------------Music*/
+
+.with-bells-on {
+    color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184; 
+    margin-left: -50px;
+}
+
+.leave {
+    color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184;
+    margin-left: -50px;
+}
+
+.for-incineration {
+    color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184;
+    margin-left: -50px;
+} 
+
+.audio-player {
+    margin-left: -50px;
+    border: 5px solid #8A1E25;
+    border-radius: 25px;
+    
+}
+
+.music-icon {
+    margin-top: 15px;
+    padding-left:30px;
+    font-size: 50px;
+    color: #5DA95F;
+    text-shadow: 3px 3px #8A1E25;
+}
+
+.music-heading {
+    color:#A7C184;
+    text-shadow: 3px 3px #8A1E25;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 61px;
+}
+
+.music-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+  
+}
+
 /*------------------------------------Video*/
 
 .video-icon {
     margin-top: 15px;
-    margin-left:15px;
+    padding-left:30px;
     font-size: 50px;
     color: #5DA95F;
     text-shadow: 2px 2px #8A1E25;
@@ -253,58 +318,7 @@ h4 {
     width:75%;
     height:50%; 
     position:center;
-}
-
-/*------------------------------------Music*/
-
-.with-bells-on {
-  color:#8A1E25;
-    font-size:30px;
-    font-weight:bolder; 
-    text-shadow: 3px 3px #A7C184;  
-}
-
-.leave {
-    color:#8A1E25;
-    font-size:30px;
-    font-weight:bolder; 
-    text-shadow: 3px 3px #A7C184;
-}
-
-.for-incineration {
-    color:#8A1E25;
-    font-size:30px;
-    font-weight:bolder; 
-    text-shadow: 3px 3px #A7C184;
-} 
-
-.audio-player {
-    border: 5px solid #8A1E25;
-    border-radius: 25px;
-}
-
-.music-icon {
-    margin-top: 15px;
-    margin-left:15px;
-    font-size: 50px;
-    color: #5DA95F;
-    text-shadow: 3px 3px #8A1E25;
-}
-
-.music-heading {
-    color:#A7C184;
-    text-shadow: 3px 3px #8A1E25;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: bolder;
-    font-size: 61px;
-}
-
-.music-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
-  
+    padding-bottom: 20px;
 }
 
 /*------------------------------------Footer*/
@@ -462,6 +476,19 @@ footer .cv-pdf i:hover {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    height: 0 auto;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.form-control {
+    margin-bottom: 57px;
+}
+
+.form-surround {
+    color: #A7C184;
+    font-weight: bolder;
+    text-shadow: 2px 2px #8A1E25;
+    
 }
 
 button[type="submit"]{
