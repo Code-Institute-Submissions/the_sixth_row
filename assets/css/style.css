@@ -25,6 +25,23 @@
     padding-bottom: 20px;
 } 
 
+.bg-color-danrob {
+    background-color: #A7C184;
+    background-image: url("/assets/images/Dan.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding-bottom: 20px;
+} 
+
+.bg-color-band {
+    background-color: #A7C184;
+    background-image: url("/assets/images/the_band3.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding-bottom: 20px;
+} 
+
+
 .bg-color-skills {
     background-color: #ffffff;
 }
@@ -111,7 +128,7 @@ h4 {
 
 .col-md-8 {
     padding: 0;
-    margin: 0;
+    
 }
 
 .heading {
@@ -150,10 +167,16 @@ h4 {
 
 #nav {
     margin: 0;
+    
 }
 
 #nav li {
    padding: 0;
+   margin: 0;
+}
+
+.list-inline {
+    margin: 0;
 }
 
 .menuitem {
@@ -227,6 +250,7 @@ h4 {
 }
 
 .audio-smackdown-text {
+    float: left;
     color:#ffffff;
     font-size:17px; 
     text-shadow: 1px 1px #8A1E25;  
@@ -240,7 +264,7 @@ h4 {
     font-size:30px;
     font-weight:bolder; 
     text-shadow: 3px 3px #A7C184; 
-    margin-left: -50px;
+    
 }
 
 .leave {
@@ -248,7 +272,7 @@ h4 {
     font-size:30px;
     font-weight:bolder; 
     text-shadow: 3px 3px #A7C184;
-    margin-left: -50px;
+    
 }
 
 .for-incineration {
@@ -256,14 +280,29 @@ h4 {
     font-size:30px;
     font-weight:bolder; 
     text-shadow: 3px 3px #A7C184;
-    margin-left: -50px;
+    
 } 
 
+.scared-of-numbers {
+    color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184; 
+    
+}
+
+.T6R-live {
+    color:#8A1E25;
+    font-size:30px;
+    font-weight:bolder; 
+    text-shadow: 3px 3px #A7C184; 
+    
+}
+
 .audio-player {
-    margin-left: -50px;
+    max-width:100%;
     border: 5px solid #8A1E25;
     border-radius: 25px;
-    
 }
 
 .music-icon {
@@ -280,7 +319,8 @@ h4 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: bolder;
-    font-size: 61px;
+    font-size: 50px;
+    
 }
 
 .music-item {
@@ -291,6 +331,18 @@ h4 {
 }
 
 /*------------------------------------Video*/
+
+.home-video {
+  background-color: #2B2B2B; 
+  max-width: auto;
+  height: auto;
+}
+
+.audio-music {
+    margin-top: 0;
+    padding: 0px;
+    
+}
 
 .video-icon {
     margin-top: 15px;
@@ -309,17 +361,21 @@ h4 {
 }
 
 .video-text {
+    float: left;
     color:#ffffff;
     font-size:17px; 
     text-shadow: 1px 1px #8A1E25;
 }
 
 .video {
-    width:75%;
-    height:50%; 
-    position:center;
+ 
+    width:100%;
+    height: 50%; 
     padding-bottom: 20px;
 }
+
+
+
 
 /*------------------------------------Footer*/
 
@@ -377,12 +433,18 @@ footer .cv-pdf i:hover {
 }
 
 .btn {
+    
     background-color: #5DA95F;
     margin-right: 10px;
+    text-shadow: 2px 2px #8A1E25;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }   
 
-.btn btn btn-danger:hover{
-    background: #5DA95F;
+.btn-danger:hover{
+   
     
 }
 
@@ -500,14 +562,26 @@ button[type="submit"]{
 
 /*------------------------------------Media queries*/
 
-@media(min-width: 992px) {
-    .section-column {
-        padding: 0 30px 30px;
-        float: none;
-        display: table-cell;
+@media(min-width:320px) and (max-width:640px) {
+    .video {
+        min-width: 100%;
+        min-height: 50%;
+        
+    }
+    .logo {
+        display: none;
+    }
+}
+
+
+
+.section-column {
+    padding: 0;
+    float: none;
+    display: table-cell;
     }
     
-    .center-form {
+.center-form {
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;
