@@ -9,7 +9,7 @@ band, as well as see when upcoming shows are taking place. Also, links will be p
 ## UX
 
 In order to make the user experience as easy and enjoyable as possible I opted for a straight forward layout design using colours that are included in 
-The Sixth Row logo, mainly red, black and green. The original concept for the homepage can be seen in the *supporting_docs folder* *under homepage_wireframe* 
+The Sixth Row logo, mainly red, black and green. The original concept for the homepage can be seen in the *supporting_docs folder* under *homepage_wireframe* 
 that I created in Balsamiq. Since the original idea for the homepage there have been a few modifications.
 
 The website is aimed at existing fans of the band, as well as potential new fans and anyone interested in having us play at a gig, wedding, party etc. 
