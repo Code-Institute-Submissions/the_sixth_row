@@ -36,13 +36,13 @@ The website allows the user to perform actions such as:
 •	Access various social media sites relating to the band (e.g. Facebook, YouTube, Soundcloud) via easily recognisable links in the footer section that is 
     viewable at the base of every page.
     
-•	Easily contact the band with an online contact form that can be used to request gigs or general info.  This can be done via the ‘Contact’ page, where   
-    an easily managed form can be completed. There is also a link to the contact page via a button titled ‘contact’ in the footer.
+•	Easily contact the band with an online contact form that can be used to request gigs or general info.  This can be done via the ‘Contact’ page, where an easily managed form can be completed. There is also a link to the contact page via a button titled ‘contact’ in the footer.
 
 ## Features
 
-**Home Logo –** This is the bands online logo that is positioned in the top left corner of the home page, but is designed not display on devices smaller than 
-            an ipad (min-width:320px) and (max-width:640px), in order to allow the Nav Bar to be at the top. It is also a link back to the home page. 
+### Existing Features
+
+**Home Logo –** This is the bands online logo that is positioned in the top left corner of the home page, but is designed not display on devices smaller than          an ipad (min-width:320px) and (max-width:640px), in order to allow the Nav Bar to be at the top. It is also a link back to the home page. 
             
 **Nav Bar –** Four easily usable page titles that pulse when hovered over. Images as well as text are used to describe each buttons function.
 
@@ -69,13 +69,28 @@ The website allows the user to perform actions such as:
 **Contact Form –** This is where the user can contact the band in order to book gigs ask questions. The form is simple and asks for three basic pieces of 
                information. 
 
-## Existing Features
+### Features left to implement
 
 
-
-## Features left to implement
 
 ## Technologies Used
+The languages, frameworks, libraries and other tools utilised for building this website are:
+
+•	##HTML 5 -## The website uses HTML5 as a fundamental basis for building the website.
+
+•	##CSS3 -##  The website uses CSS3 for styling of all elements within the website. It is linked from the each page to the ##style.css## file and is used for all content, including such as layout of color and background, images, video, audio etc.
+
+•	##Bootstrap 3.7.6. -##  The open-source Bootstrap framework has been used to implement some basic templates for forms, buttons and navigation. Bootstrap is also utilised to accommodate the responsive and mobile first design of the web page. [https://getbootstrap.com/]
+
+•	##Cloud9 AWS (Amazon) -##  Cloud9, a cloud-based integrated development environment (IDE) that has been used to write, run, and debug the code used for the website. [https://c9.io/rsimons]
+
+•	##GitHub -##  GitHub has been used for version control of the code by using Git functions in the control panel. Github was utilised frequently during the development of the website.  [https://github.com/]
+
+•	##Font Awesome -## The website uses Font Awesome for certain icons (e.g. icons in the Nav Bar). [https://fontawesome.com/v4.7.0/icons/]
+
+•	##Google Fonts-## The website uses Google fonts to accentuate certain text. [https://fonts.google.com/]
+
+
 
 ## Testing
 
@@ -87,4 +102,4 @@ The website allows the user to perform actions such as:
 
 ### Media 
 
-### Acknowledgments 
+### Acknowledgments
