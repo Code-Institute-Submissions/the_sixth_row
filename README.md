@@ -1,66 +1,68 @@
+# The Sixth Row 
 
-Your Project's Name
-One or two paragraphs providing an overview of your project.
+This project is to showcase my own former band. We have a lot of unreleased music, photos and videos that have never been featured in a specifically designed
+website. 
 
-Essentially, this part is your sales pitch.
+The project will be an easily usable four-page website that will enable the user to listen to music, watch videos, read info, view photos and contact the 
+band, as well as see when upcoming shows are taking place. Also, links will be provided to other social media sites, such as YouTube, Facebook and Soundcloud.    
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## UX
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+In order to make the user experience as easy and enjoyable as possible I opted for a straight forward layout design using colours that are included in 
+The Sixth Row logo, mainly red, black and green. The original concept for the homepage can be seen in the *supporting_docs folder* *under homepage_wireframe* 
+that I created in Balsamiq. Since the original idea for the homepage there have been a few modifications.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The website is aimed at existing fans of the band, as well as potential new fans and anyone interested in having us play at a gig, wedding, party etc. 
+The individual will be able to listen to our music, watch videos, see photos and contact us via an online form and also, see if there are any upcoming 
+gigs / shows
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+I believe that a website specifically for our band is the best way to showcase our back catalogue of music, videos and photos and the four pages utilised contain the correct amount of information required by the user. 
+The website allows the user to perform actions such as:
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+•	Easily play songs in audio format on the homepage audio players under the tile ‘Music’. These audio clips have their own controls.
+•	Read information about the band in the homepage biography / history section titles ‘Audio Smackdown’ and also in snippets of text that accompany the 
+    videos. 
+•	Easily play songs and shows in video format on the homepage and page titled ‘Shows / Videos. These videos have their own sets of controls and can be 
+    full screened, dependent upon the user’s requirements.
+•	View photos of the band and members in the header and also in the ‘Gigs / Members’ page. 
+•	See upcoming gigs in the form of a flyer or potentially lit on the ‘Gigs / Members’ page.
+•	Access various social media sites relating to the band (e.g. Facebook, YouTube, Soundcloud) via easily recognisable links in the footer section that is 
+    viewable at the base of every page.
+•	Easily contact the band with an online contact form that can be used to request gigs or general info.  This can be done via the ‘Contact’ page, where   
+    an easily managed form can be completed. There is also a link to the contact page via a button titled ‘contact’ in the footer.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+## Features
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+**Home Logo –** This is the bands online logo that is positioned in the top left corner of the home page, but is designed not display on devices smaller than 
+            an ipad (min-width:320px) and (max-width:640px), in order to allow the Nav Bar to be at the top. It is also a link back to the home page. 
+**Nav Bar –** Four easily usable page titles that pulse when hovered over. Images as well as text are used to describe each buttons function.
+**Header Image –** Displays a photo of the band playing live.
+**Audio Smackdown –** a brief biography / history of the band.
+**Home Screen Video –** Allows user to watch video embedded on the home screen.
+**Music Audio Player(s) –** Allows user to easily access recordings from the band.
+**Social Media Links –** Links to the bands different social media pages are displayed in the footer. These are easily recognisable from their individual logos.
+**Contact Button –** Explains availability and takes user straight to contact page.
+**The Sixth Row Label –** Bottom right hand corner of footer, also is a link to homepage.
+**Shows / Videos Page Videos –** Displays one song from the band and a full thirty eight minute show. 
+**Upcoming Gigs –** This section shows the bands next live gig in the form of a flyer showing relevant information.
+**Band Member Names and Photos –** Allows the user to see pictures of each band member and what they do in the band.
+**Contact Form –** This is where the user can contact the band in order to book gigs ask questions. The form is simple and asks for three basic pieces of 
+               information. 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Existing Features
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+## Features left to implement
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+## Technologies Used
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## Testing
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+## Deployment
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+## Credits 
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Content
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+### Media 
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+### Acknowledgments 
