@@ -76,19 +76,19 @@ The website allows the user to perform actions such as:
 ## Technologies Used
 The languages, frameworks, libraries and other tools utilised for building this website are:
 
-•	##HTML 5 -## The website uses HTML5 as a fundamental basis for building the website.
+•	**HTML 5 -** The website uses HTML5 as a fundamental basis for building the website.
 
-•	##CSS3 -##  The website uses CSS3 for styling of all elements within the website. It is linked from the each page to the ##style.css## file and is used for all content, including such as layout of color and background, images, video, audio etc.
+•	**CSS3 -** The website uses CSS3 for styling of all elements within the website. It is linked from the each page to the *style.css* file and is used for all content, including such as layout of color and background, images, video, audio etc.
 
-•	##Bootstrap 3.7.6. -##  The open-source Bootstrap framework has been used to implement some basic templates for forms, buttons and navigation. Bootstrap is also utilised to accommodate the responsive and mobile first design of the web page. [https://getbootstrap.com/]
+•	**Bootstrap 3.7.6. -** The open-source Bootstrap framework has been used to implement some basic templates for forms, buttons and navigation. Bootstrap is also utilised to accommodate the responsive and mobile first design of the web page. [https://getbootstrap.com/]
 
-•	##Cloud9 AWS (Amazon) -##  Cloud9, a cloud-based integrated development environment (IDE) that has been used to write, run, and debug the code used for the website. [https://c9.io/rsimons]
+•	**Cloud9 AWS (Amazon) -** Cloud9, a cloud-based integrated development environment (IDE) that has been used to write, run, and debug the code used for the website. [https://c9.io/rsimons]
 
-•	##GitHub -##  GitHub has been used for version control of the code by using Git functions in the control panel. Github was utilised frequently during the development of the website.  [https://github.com/]
+•	**GitHub -** GitHub has been used for version control of the code by using Git functions in the control panel. Github was utilised frequently during the development of the website.  [https://github.com/]
 
-•	##Font Awesome -## The website uses Font Awesome for certain icons (e.g. icons in the Nav Bar). [https://fontawesome.com/v4.7.0/icons/]
+•	**Font Awesome -** The website uses Font Awesome for certain icons (e.g. icons in the Nav Bar). [https://fontawesome.com/v4.7.0/icons/]
 
-•	##Google Fonts-## The website uses Google fonts to accentuate certain text. [https://fonts.google.com/]
+•	**Google Fonts-** The website uses Google fonts to accentuate certain text. [https://fonts.google.com/]
 
 
 
