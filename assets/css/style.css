@@ -280,11 +280,11 @@ h4 {
 /*------------------------------------Videos*/
 
 .home-video {
-  background-color: #2B2B2B; 
-  width: 100%;
+   
+  width: 80%;
   height: 50%;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 15px;
+ 
 }
 
 .video {
@@ -307,6 +307,15 @@ h4 {
     margin-bottom: 15px;
     font-weight: bolder;
     text-shadow: 2px 2px #8A1E25;
+}
+
+.home-video-heading {
+    color: #A7C184;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #8A1E25;
+    margin-left: 15px;
 }
 
 .video-text {
@@ -471,7 +480,7 @@ h4 {
     }
     
     .home-video {
-        min-width: 100%;
+        min-width: 90%;
         min-height: 50%;
     }
     .logo {
