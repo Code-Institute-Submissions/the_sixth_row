@@ -94,12 +94,65 @@ The languages, frameworks, libraries and other tools utilised for building this 
 
 ## Testing
 
+Various methods of testing have been carried out to test the code of the website. Continuous testing throughout the development has been implemented to check the quality of the code. The aim is to check the functionality of the code on different devices (mobile, tablet, desktop) with an overall perspective of responsive and mobile first design.
+The site has been viewed and tested in **Firefox**, **Safari**, **Chrome** and **Explorer**. The devices used to test the site are **iPhone 5/SE**, **Samsung Galaxy**, 
+**iPad**, **iPad Pro** **iPhone X**, **iPhone 6/7/8**, **Hudle** and **Samsung laptop**. 
+
+The wireframe for the Home page can be seen in the *supporting_docs folder* under *homepage_wireframe* and this was used initially to plan the site and build around. 
+The opinions of numerous people were asked in the final stages of the project.
+
+The main basic functions of the web site that required rigorous testing in different scenarios are listed below.
+
+•	Main Navigation:
+    o	Hover mouse over navigation bar tabs **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**; and ensure that they pulse.
+    o	Click **Home**; **Shows/Videos**; **Gigs/Members**; **Contact** tabs to ensure that they direct user to correct page.
+    o	Use all navigation buttons on different tablet and mobile screen size resolutions to ensure that they function correctly.
+
+•	Links:
+    o	Hover the mouse over the **Social Media** links to ensure that they turn from green to red on different tablet and mobile screen size resolutions devices to 
+        ensure that they function correctly.
+    o	Click *Sixth Row Logo** in Header and Footer to ensure that this redirects the user to the Homepage.
+    o	Hover over **Contact** button in footer to ensure that this turns from green to red.
+
+•	Contact Form:
+    o   Checked all three input sections of the contact form **Name**; **Email** and **How can we help?** to ensure that all fields require data in order to submit.
+    o   Ensure that email address must be input in correct format and error message is displayed if this is not true (e.g. must have @ symbol)
+        on different tablet and mobile screen size resolutions to ensure correct functionality.
+    o   Ensure that button titled 'Speak to T6R' in the contact form changes from green to red when hovered over.
+    
+•	Audio Files:
+    o   The audio files on the **Home** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look and play correctly, 
+        as they are key to the to presenting the bands music on the website. 
+        
+•	Video Files:    
+    o   The video files on the **Home** page and **Shows/Videos** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look 
+        and play correctly, as they are key to presenting the band on the website. 
+
+•	Responsive / Mobile First design: 
+    o   All of the **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**  pages have a **Header**; **Section** and **Footer**. These needed to display correctly accross 
+        all devices and screen resolutions. primarily checks are required to ensure that the website collapses in to columns in mobile view and that the information is 
+        presented in a clear and legible fashion.
+    o   The Sixth Row Logo in the heading was removed in tablet and mobile view in order to have the Nav Bar at the top of the page on all pages. This was done to provide a 
+        better user experience and clarity of design.    
+
+
+
 ## Deployment
+
+
 
 ## Credits 
 
 ### Content
 
+This README file is based on the Code Institute template.
+
+
 ### Media 
 
+All media files used were created and developed by The Sixth Row for the design of the project.
+
 ### Acknowledgments
+
+I would also like to thank Anthony Ngene (https://github.com/tonymontaro) as a supervisor in the development of this project. 
+Thanks to his feedback, I have been given the correct insights to achieve this result.

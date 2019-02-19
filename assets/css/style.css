@@ -283,8 +283,16 @@ h4 {
    
   width: 80%;
   height: 50%;
-  padding-left: 15px;
- 
+  padding-left: 30px;
+}
+
+.home-video-heading {
+    color: #A7C184;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #8A1E25;
+    margin-left: 30px;
 }
 
 .video {
@@ -309,14 +317,7 @@ h4 {
     text-shadow: 2px 2px #8A1E25;
 }
 
-.home-video-heading {
-    color: #A7C184;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: bolder;
-    text-shadow: 2px 2px #8A1E25;
-    margin-left: 15px;
-}
+
 
 .video-text {
     float: left;
@@ -480,7 +481,7 @@ h4 {
     }
     
     .home-video {
-        min-width: 90%;
+        min-width: 70%;
         min-height: 50%;
     }
     .logo {
