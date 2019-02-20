@@ -73,6 +73,12 @@ The website allows the user to perform actions such as:
 
 **More pages -** Currently feels like there are items that could be separated (e.g. Gigs/Members)
 
+**Working Social Media Links -** Currently Social Media links do not link to any pages.
+
+**Working Contact Form -** This will eventually be recieved correctly and able to respond to. 
+
+**Page hosted correctly** The page will eventually be hosted as a stand alone page, for example [www.TheSixthRow.com].
+
 ## Technologies Used
 The languages, frameworks, libraries and other tools utilised for building this website are:
 
@@ -146,11 +152,19 @@ The main basic functions of the web site that required rigorous testing in diffe
   |   5    | Images and videos not linking correctly | Utilised relative formatting for links |
   |   6    | 'Audioweb' font not legible in Safari browser | Changed font to 'Kanit' |
   |   7    | Bootstrap 'col-xs-10 col-sm-10' not allowing Home video to play | Removed from home video Div |
-  |   8    | 
+  |   8    | Too much space in mobile first margins | Decreased margin sizes |
+  |   9    | needed to validate HTML for debugging purposes | Utilised WC3 Markup Validation Service |
   
 ## Deployment
 
+The website is designed in the AWS Cloud9 environment and regularly commited and to GitHub after each crucial peice of coding. Using this method as a sanity check 
+for the development enabled me to restore the site back to previous stages when it functioned correctly or easily find lost pieces of code. 
 
+The Git process utilised is as follows:
+
+  1. Local Cloud9 environment used to build the site 
+  2. Commited files to the staging area 
+  3. Pushed files to the working environment, which then updates the repository and is also viewable as a link [https://robsimons1.github.io/the_sixth_row/] for testing on other devices and screen resolutions
 
 ## Credits 
 
@@ -158,12 +172,10 @@ The main basic functions of the web site that required rigorous testing in diffe
 
 This README file is based on the Code Institute template.
 
-
 ### Media 
 
 All media files used were created and developed by The Sixth Row for the design of the project.
 
 ### Acknowledgments
 
-I would also like to thank Anthony Ngene (https://github.com/tonymontaro) as a supervisor in the development of this project. 
-Thanks to his feedback, I have been given the correct insights to achieve this result.
+Thank you to my fellow band members of The Sith Row for making this an enjoyable project that I felt passionately about. I would like to thank Anthony Ngene (https://github.com/tonymontaro) for his invaluable feedback, as supervisor for this project. 
