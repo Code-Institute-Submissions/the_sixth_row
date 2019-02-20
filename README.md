@@ -148,8 +148,18 @@ The main basic functions of the web site that required rigorous testing in diffe
   o   The Sixth Row Logo in the heading was removed in tablet and mobile view in order to have the Nav Bar at the top of the page on all pages. This was done to provide a 
       better user experience and clarity of design.    
 
+## Issue List
 
-
+  | Issue  |                 Description                     |       Solution                      |  
+  | ------ |:-----------------------------------------------:|:-----------------------------------:|
+  |        |  Used rows as opposed to columns for Homepage   | Amended rows to columns             | 
+  |    1   |  that created too much free space when viewing  | that collapsed appropriately in     |
+  |        |  on resposive devices.                          | different responsive views.         |
+  |--------|:-----------------------------------------------:|:-----------------------------------:|
+  |        |  Audio-Players were creating issues by pushing  | Amended max width to 100%           |  
+  |    2   |  mobile view margins out of sync.               |                                     |
+  |--------|:-----------------------------------------------:|:-----------------------------------:|
+  |        | 
 ## Deployment
 
 
