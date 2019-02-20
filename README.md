@@ -21,22 +21,22 @@ gigs / shows
 I believe that a website specifically for our band is the best way to showcase our back catalogue of music, videos and photos and the four pages utilised contain the correct amount of information required by the user. 
 The website allows the user to perform actions such as:
 
-•	Easily play songs in audio format on the homepage audio players under the tile ‘Music’. These audio clips have their own controls.
+*	Easily play songs in audio format on the homepage audio players under the tile ‘Music’. These audio clips have their own controls.
 
-•	Read information about the band in the homepage biography / history section titles ‘Audio Smackdown’ and also in snippets of text that accompany the 
+*	Read information about the band in the homepage biography / history section titles ‘Audio Smackdown’ and also in snippets of text that accompany the 
     videos.
     
-•	Easily play songs and shows in video format on the homepage and page titled ‘Shows / Videos. These videos have their own sets of controls and can be 
+*	Easily play songs and shows in video format on the homepage and page titled ‘Shows / Videos. These videos have their own sets of controls and can be 
     full screened, dependent upon the user’s requirements.
     
-•	View photos of the band and members in the header and also in the ‘Gigs / Members’ page. 
+*	View photos of the band and members in the header and also in the ‘Gigs / Members’ page. 
 
-•	See upcoming gigs in the form of a flyer or potentially lit on the ‘Gigs / Members’ page.
+*	See upcoming gigs in the form of a flyer or potentially lit on the ‘Gigs / Members’ page.
 
-•	Access various social media sites relating to the band (e.g. Facebook, YouTube, Soundcloud) via easily recognisable links in the footer section that is 
+*	Access various social media sites relating to the band (e.g. Facebook, YouTube, Soundcloud) via easily recognisable links in the footer section that is 
     viewable at the base of every page.
     
-•	Easily contact the band with an online contact form that can be used to request gigs or general info.  This can be done via the ‘Contact’ page, where an easily managed form can be completed. There is also a link to the contact page via a button titled ‘contact’ in the footer.
+*	Easily contact the band with an online contact form that can be used to request gigs or general info.  This can be done via the ‘Contact’ page, where an easily managed form can be completed. There is also a link to the contact page via a button titled ‘contact’ in the footer.
 
 ## Features
 
@@ -76,7 +76,7 @@ The website allows the user to perform actions such as:
 ## Technologies Used
 The languages, frameworks, libraries and other tools utilised for building this website are:
 
-*	  **HTML 5 -** The website uses HTML5 as a fundamental basis for building the website.
+*	**HTML 5 -** The website uses HTML5 as a fundamental basis for building the website.
 
 *	**CSS3 -** The website uses CSS3 for styling of all elements within the website. It is linked from the each page to the *style.css* file and is used for all content, including such as layout of color and background, images, video, audio etc.
 
@@ -103,49 +103,49 @@ The opinions of numerous people were asked in the final stages of the project.
 
 The main basic functions of the web site that required rigorous testing in different scenarios are listed below.
 
-•	**Main Navigation**
+*	**Main Navigation**
 
-  o   Hover mouse over navigation bar tabs **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**; and ensure that they pulse.
+  *   Hover mouse over navigation bar tabs **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**; and ensure that they pulse.
     
-  o   Click **Home**; **Shows/Videos**; **Gigs/Members**; **Contact** tabs to ensure that they direct user to correct page.
+  *   Click **Home**; **Shows/Videos**; **Gigs/Members**; **Contact** tabs to ensure that they direct user to correct page.
     
-  o   Use all navigation buttons on different tablet and mobile screen size resolutions to ensure that they function correctly.
+  *   Use all navigation buttons on different tablet and mobile screen size resolutions to ensure that they function correctly.
 
-•	**Links**
+*	**Links**
 
-  o  Hover the mouse over the **Social Media** links to ensure that they turn from green to red on different tablet and mobile screen size resolutions devices to 
+  *  Hover the mouse over the **Social Media** links to ensure that they turn from green to red on different tablet and mobile screen size resolutions devices to 
      ensure that they function correctly.
         
-  o  Click *Sixth Row Logo** in Header and Footer to ensure that this redirects the user to the Homepage.
+  *  Click *Sixth Row Logo** in Header and Footer to ensure that this redirects the user to the Homepage.
     
-  o	 Hover over **Contact** button in footer to ensure that this turns from green to red.
+  *	 Hover over **Contact** button in footer to ensure that this turns from green to red.
 
-•	**Contact Form**
+*	**Contact Form**
 
-  o  Checked all three input sections of the contact form **Name**; **Email** and **How can we help?** to ensure that all fields require data in order to submit.
+  *  Checked all three input sections of the contact form **Name**; **Email** and **How can we help?** to ensure that all fields require data in order to submit.
     
-  o  Ensure that email address must be input in correct format and error message is displayed if this is not true (e.g. must have @ symbol)
+  *  Ensure that email address must be input in correct format and error message is displayed if this is not true (e.g. must have @ symbol)
      on different tablet and mobile screen size resolutions to ensure correct functionality.
         
-  o  Ensure that button titled 'Speak to T6R' in the contact form changes from green to red when hovered over.
+  *  Ensure that button titled 'Speak to T6R' in the contact form changes from green to red when hovered over.
     
-•	**Audio Files**
+*	**Audio Files**
 
-  o  The audio files on the **Home** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look and play correctly, 
+  *  The audio files on the **Home** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look and play correctly, 
         as they are key to the to presenting the bands music on the website. 
         
-•	**Video Files**
+*	**Video Files**
 
-  o  The video files on the **Home** page and **Shows/Videos** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look 
+  *  The video files on the **Home** page and **Shows/Videos** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look 
         and play correctly, as they are key to presenting the band on the website. 
 
-•	**Responsive / Mobile First design** 
+*	**Responsive / Mobile First design** 
 
-  o   All of the **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**  pages have a **Header**; **Section** and **Footer**. These needed to display correctly accross 
+  *   All of the **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**  pages have a **Header**; **Section** and **Footer**. These needed to display correctly accross 
       all devices and screen resolutions. primarily checks are required to ensure that the website collapses in to columns in mobile view and that the information is 
       presented in a clear and legible fashion.
         
-  o   The Sixth Row Logo in the heading was removed in tablet and mobile view in order to have the Nav Bar at the top of the page on all pages. This was done to provide a 
+  *   The Sixth Row Logo in the heading was removed in tablet and mobile view in order to have the Nav Bar at the top of the page on all pages. This was done to provide a 
       better user experience and clarity of design.    
 
 ## Issue List
@@ -155,7 +155,8 @@ The main basic functions of the web site that required rigorous testing in diffe
   |   1    | Used rows for Homepage that created too much free space when viewing on resposive devices | Amended rows to columns |
   |   2    | Audio players pushing margins out of sync | Amended max-width to 100% |
   |   3    | Logo took up too much space in responsive views | Changed display to none in media query below tablet resolution |
-  |   4    | 
+  |   4    | Videos too large in resolutions below tablet view | Added media query to amend video sizes below tablet views |
+  |   5    | 
   
 ## Deployment
 
