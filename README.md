@@ -103,50 +103,37 @@ The opinions of numerous people were asked in the final stages of the project.
 
 The main basic functions of the web site that required rigorous testing in different scenarios are listed below.
 
-*	**Main Navigation**
+*	**Main Navigation** -
+    * Hover mouse over navigation bar tabs **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**; and ensure that they pulse.
+    * Click **Home**; **Shows/Videos**; **Gigs/Members**; **Contact** tabs to ensure that they direct user to correct page.
+    * Use all navigation buttons on different tablet and mobile screen size resolutions to ensure that they function correctly.
 
-  * Hover mouse over navigation bar tabs **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**; and ensure that they pulse.
+*	**Links** -
+    * Hover the mouse over the **Social Media** links to ensure that they turn from green to red on different tablet and mobile screen size resolutions devices to 
+      ensure that they function correctly.
+    * Click *Sixth Row Logo** in Header and Footer to ensure that this redirects the user to the Homepage.
+    *	Hover over **Contact** button in footer to ensure that this turns from green to red.
+
+*	**Contact Form** -
+    * Checked all three input sections of the contact form **Name**; **Email** and **How can we help?** to ensure that all fields require data in order to submit.
+    * Ensure that email address must be input in correct format and error message is displayed if this is not true (e.g. must have @ symbol)
+      on different tablet and mobile screen size resolutions to ensure correct functionality.
+    * Ensure that button titled 'Speak to T6R' in the contact form changes from green to red when hovered over.
     
-  * Click **Home**; **Shows/Videos**; **Gigs/Members**; **Contact** tabs to ensure that they direct user to correct page.
-    
-  * Use all navigation buttons on different tablet and mobile screen size resolutions to ensure that they function correctly.
-
-*	**Links**
-
-  * Hover the mouse over the **Social Media** links to ensure that they turn from green to red on different tablet and mobile screen size resolutions devices to 
-    ensure that they function correctly.
+*	**Audio Files** -
+    * The audio files on the **Home** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look and play correctly, 
+      as they are key to the to presenting the bands music on the website. 
         
-  * Click *Sixth Row Logo** in Header and Footer to ensure that this redirects the user to the Homepage.
-    
-  *	Hover over **Contact** button in footer to ensure that this turns from green to red.
+*	**Video Files** -
+    * The video files on the **Home** page and **Shows/Videos** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look 
+      and play correctly, as they are key to presenting the band on the website. 
 
-*	**Contact Form**
-
-  * Checked all three input sections of the contact form **Name**; **Email** and **How can we help?** to ensure that all fields require data in order to submit.
-    
-  * Ensure that email address must be input in correct format and error message is displayed if this is not true (e.g. must have @ symbol)
-    on different tablet and mobile screen size resolutions to ensure correct functionality.
-        
-  * Ensure that button titled 'Speak to T6R' in the contact form changes from green to red when hovered over.
-    
-*	**Audio Files**
-
-  * The audio files on the **Home** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look and play correctly, 
-    as they are key to the to presenting the bands music on the website. 
-        
-*	**Video Files**
-
-  * The video files on the **Home** page and **Shows/Videos** page need to be tested accross numerous browsers, devices and resolutions to ensure that they look 
-    and play correctly, as they are key to presenting the band on the website. 
-
-*	**Responsive / Mobile First design** 
-
-  * All of the **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**  pages have a **Header**; **Section** and **Footer**. These needed to display correctly accross 
-    all devices and screen resolutions. primarily checks are required to ensure that the website collapses in to columns in mobile view and that the information is 
-    presented in a clear and legible fashion.
-        
-  * The Sixth Row Logo in the heading was removed in tablet and mobile view in order to have the Nav Bar at the top of the page on all pages. This was done to provide a 
-    better user experience and clarity of design.    
+*	**Responsive / Mobile First design** -
+    * All of the **Home**; **Shows/Videos**; **Gigs/Members**; **Contact**  pages have a **Header**; **Section** and **Footer**. These needed to display correctly accross 
+      all devices and screen resolutions. primarily checks are required to ensure that the website collapses in to columns in mobile view and that the information is 
+      presented in a clear and legible fashion.
+    * The Sixth Row Logo in the heading was removed in tablet and mobile view in order to have the Nav Bar at the top of the page on all pages. This was done to provide a 
+      better user experience and clarity of design.    
 
 ## Issue List
 
@@ -158,7 +145,8 @@ The main basic functions of the web site that required rigorous testing in diffe
   |   4    | Videos too large in resolutions below tablet view | Added media query to amend video sizes below tablet views |
   |   5    | Images and videos not linking correctly | Utilised relative formatting for links |
   |   6    | 'Audioweb' font not legible in Safari browser | Changed font to 'Kanit' |
-  |   7    |
+  |   7    | Bootstrap 'col-xs-10 col-sm-10' not allowing Home video to play | Removed from home video Div |
+  |   8    | 
   
 ## Deployment
 
