@@ -79,6 +79,7 @@ The website allows the user to perform actions such as:
 
 **Page hosted correctly** The page will eventually be hosted as a stand alone page, for example [www.TheSixthRow.com].
 
+
 ## Technologies Used
 The languages, frameworks, libraries and other tools utilised for building this website are:
 
@@ -153,7 +154,10 @@ The main basic functions of the web site that required rigorous testing in diffe
   |   6    | 'Audioweb' font not legible in Safari browser | Changed font to 'Kanit' |
   |   7    | Bootstrap 'col-xs-10 col-sm-10' not allowing Home video to play | Removed from home video Div |
   |   8    | Too much space in mobile first margins | Decreased margin sizes |
-  |   9    | needed to validate HTML for debugging purposes | Utilised WC3 Markup Validation Service |
+  |   9    | Needed to validate HTML for debugging purposes | Utilised W3 Markup Validation Service |
+  |   10   | Problem found during HTML validation with spaces in music and image file names | Replaced spaces with underscores and updated HTML |
+  |   11   | Needed to validate CSS for debugging purposes | Utilised jigsaw.W3 CSS Validator |
+  |   12   | -moz- ; -webkit- ; -o- showing as warnings in CSS validation | Left in CSS for viewing in different browsers |
   
 ## Deployment
 

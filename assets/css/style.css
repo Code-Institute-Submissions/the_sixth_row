@@ -117,10 +117,11 @@ h4 {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .logo {
-    background: url("../images/Sixth Row Img.jpg");
+    background: url("../images/Sixth_Row_Img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -128,6 +129,7 @@ h4 {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 
@@ -381,7 +383,6 @@ h4 {
     padding-top: 50px;
     margin: 0 auto;
     max-width: 50%;
-    height: 0 auto;
     background-color: rgba(255, 0, 0, 0.3);
 }
 
@@ -407,6 +408,7 @@ h4 {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .social-links {
